@@ -1,0 +1,19 @@
+{
+  "background": {
+     "persistent": false,
+     "scripts": [ "background.js" ]
+  },
+  "browser_action": {
+
+  },
+  "description": "Every time a new tab is opened there is a 1% chance to be Rick Rolled",
+  "icons": {
+     "128": "icon128.png",
+     "16": "icon16.png",
+     "48": "icon48.png"
+  },
+  "name": "Rick Roll",
+  "permissions": [ "tabs" ],
+  "version": "3.11",
+  "manifest_version": 2
+}
